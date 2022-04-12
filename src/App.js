@@ -8,7 +8,7 @@ class App extends Component {
   state = {
     img : {User},
     bio : "i am full stack devloper",
-    fullName: "Wael Abednebi",
+    fullName: "habib chamakhi",
     show: false,
 
   };

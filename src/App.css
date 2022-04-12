@@ -1,0 +1,45 @@
+* {
+  background-image: url(https://th.bing.com/th/id/R.1a1c3c0a1bb95fdd1827526f951f1901?rik=Eh4QBSCpzOkzaw&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f7%2f1%2f2%2f35665.jpg&ehk=20l%2fMxETdat2zxlwFcXdY4r%2f0Z6HAIS83Pw9oTk1f2Y%3d&risl=&pid=ImgRaw&r=0);
+
+  text-align: center;
+}
+img{
+  border: 4px solid black;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+
+}
+button{
+  color: red;
+  font-family: fantasy;
+  border: 2px solid black;
+}
+h1 {
+  color: #900;
+  text-decoration: none;
+}
+
+h1:hover {
+  color: red;
+  position: relative;
+}
+
+h1[data]:hover:after {
+  content: attr(data);
+  padding: 4px 8px;
+  color: rgba(0,0,0,0.5);
+  position: absolute;
+  left: 0;
+  top: 100%;
+  white-space: nowrap;
+  z-index: 2;
+  border-radius: 5px ;
+  background: rgba(0,0,0,0.5);
+}
+div.profil{
+  color: aliceblue;
+  font-family: serif;
+  border: 2px inset cornflowerblue ;
+
+}
